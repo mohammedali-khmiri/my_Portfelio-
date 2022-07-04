@@ -7,7 +7,7 @@ module.exports = {
 				sm: "480px",
 			},
 			spacing: {
-				big: "40rem",
+				big: "48rem",
 			},
 		},
 		fontFamily: {

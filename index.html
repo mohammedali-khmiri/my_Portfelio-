@@ -13,9 +13,11 @@
 	</head>
 	<body class="h-full font-nunito">
 		<!-- into section -->
-		<div class="h-1/2 md:h-screen bg-gradient-to-t from-blue-200 relative">
+		<div
+			class="h-1/2 lg:h-screen bg-gradient-to-t from-blue-200 relative overflow-hidden"
+		>
 			<!-- navbar -->
-			<nav class="w-full fixed top-0 bg-white">
+			<nav class="w-full fixed top-0 bg-white z-10">
 				<div class="container mx-auto py-5 flex justify-between items-center">
 					<div class="items-center z-20">
 						<span class="text-2xl font-bold text-indigo-700"
@@ -74,16 +76,30 @@
 			<!-- image -->
 			<img
 				src="img/man.png"
-				class="absolute bottom-0 right-0 md:left-0 mx-auto h-5/6 object-cover"
+				class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover"
 				alt=""
 			/>
 			<!-- circle -->
-			<!-- <div
-				class="hidden md:block absolute -bottom-1/4 right-0 left-0 mx-auto w-96 h-96 bg-blue-400 rounded-full"
-			></div> -->
+			<div
+				class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-big h-big bg-blue-600 rounded-full -z-10"
+			></div>
 			<!-- animated text -->
+			<div
+				class="absolute top-1/3 left-5 text-2xl sm:text-4xl sm:left-10 md:text-6xl md:left-1/5 lg:left-5 xl:left-40 xl:text-7xl"
+			>
+				<span class="text-gray-600 font-bold">Frelance</span>
+				<p class="text-red-500 font-bold">Developer</p>
+			</div>
 			<!-- texts -->
-			<div></div>
+			<div class="hidden lg:flex flex-col gap-5 shadow-lg  absolute top-0 bottom-0  right-10 m-auto  p-5 rounded-md bg-white font-bold h-fit w-1/3 ">
+				<h1 class="text-2xl text-blue-900 ">Hi, I'm Mohamed Ali</h1>
+				<p class="text-gray-500 ">
+					I'm Front End Developer working as a Freelancer, I make websites for
+					clients ( E-commerce, Dashboard, ... ) also I enjoy making
+					 montage videos and editing picture with PhotoShop... 
+				</p>
+				<a class="bg-blue-500 w-fit px-5 py-2 rounded-md text-white font-semibold" href="#contact">	Hire me</a>
+			</div>
 		</div>
 		<script src="app.js"></script>
 	</body>
