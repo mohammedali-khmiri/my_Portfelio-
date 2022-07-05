@@ -121,7 +121,7 @@ const exampleText = [" Developer ", "Designer", "Programmer"];
 const exampleTyping = new AutoTyping("#text", exampleText, {
 	typeSpeed: 100,
 	deleteSpeed: 100,
-	waitBeforeDelete: 2000,
+	waitBeforeDelete: 200,
 	waitBetweenWords: 500,
 });
 exampleTyping.start();
