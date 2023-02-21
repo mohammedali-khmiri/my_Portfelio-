@@ -1,371 +1,374 @@
 <!DOCTYPE html>
 <html lang="en" class="h-full">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<link rel="stylesheet" href="./css/style.css" />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&family=Urbanist:wght@100&display=swap"
-			rel="stylesheet"
-		/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>my_Portfolio</title>
-	</head>
-	<body class="h-full font-nunito">
-		<!-- into section -->
-		<div
-			class="h-1/2 lg:h-screen bg-gradient-to-t from-blue-200 relative overflow-hidden"
-		>
-			<!-- navbar -->
-			<nav class="w-full px-5 fixed top-0 bg-white z-10">
-				<div class="container mx-auto py-5 flex justify-between items-center">
-					<div class="items-center z-20">
-						<span class="text-2xl font-bold text-indigo-700"
-							>MY Portfolio.</span
-						>
-					</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&family=Urbanist:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my_Portfolio</title>
+  </head>
+  <body class="h-full font-nunito">
+    <!-- into section -->
+    <div
+      class="h-1/2 lg:h-screen bg-gradient-to-t from-blue-200 relative overflow-hidden"
+    >
+      <!-- navbar -->
+      <nav class="w-full px-5 fixed top-0 bg-white z-10">
+        <div class="container mx-auto py-5 flex justify-between items-center">
+          <div class="items-center z-20">
+            <span class="text-2xl font-bold text-indigo-700"
+              >MY Portfolio.</span
+            >
+          </div>
 
-					<ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm">
-						<li class="hover:text-gray-500">
-							<a href="">Home</a>
-						</li>
-						<li class="hover:text-gray-500">
-							<a href="">About me</a>
-						</li>
-						<li class="hover:text-gray-500">
-							<a href="">Services</a>
-						</li>
-						<li class="hover:text-gray-500">
-							<a href="">Contact</a>
-						</li>
-					</ul>
+          <ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm">
+            <li class="hover:text-gray-500">
+              <a href="">Home</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="">About me</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="">Services</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="">Contact</a>
+            </li>
+          </ul>
 
-					<img
-						src="./img/moon.png"
-						class="hidden md:block w-6 cursor-pointer"
-						alt=""
-					/>
-					<div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
-						<div class="w-6 h-0.5 bg-black"></div>
-						<div class="w-6 h-0.5 bg-black"></div>
-						<div class="w-6 h-0.5 bg-black"></div>
-					</div>
-					<!-- <div id="close" class=" md:hidden space-y-1  cursor-pointer z-20">
+          <img
+            src="./img/moon.png"
+            class="hidden md:block w-6 cursor-pointer"
+            alt=""
+          />
+          <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
+            <div class="w-6 h-0.5 bg-black"></div>
+            <div class="w-6 h-0.5 bg-black"></div>
+            <div class="w-6 h-0.5 bg-black"></div>
+          </div>
+          <!-- <div id="close" class=" md:hidden space-y-1  cursor-pointer z-20">
 						<div class="font-bold text-2xl text-black">X</div>
 					</div> -->
-					<ul
-						id="menu"
-						class="hidden bg-white absolute left-0 top-12 w-full p-10 space-y-3 rounded-b-3xl text-black font-bold text-center"
-					>
-						<li>
-							<a href="">Home</a>
-						</li>
-						<li>
-							<a href="">About me</a>
-						</li>
-						<li>
-							<a href="">Services</a>
-						</li>
-						<li>
-							<a href="">Contact</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-			<!-- intro content -->
-			<!-- image -->
-			<img
-				src="img/man.png"
-				class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover"
-				alt=""
-			/>
-			<!-- circle -->
-			<div
-				class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-big h-big bg-blue-600 rounded-full -z-10"
-			></div>
-			<!-- animated text -->
-			<div
-				class="absolute top-1/3 left-5 text-2xl sm:text-4xl sm:left-10 md:text-6xl md:left-1/5 lg:left-5 xl:left-40 xl:text-7xl"
-			>
-				<span class="text-gray-600 font-bold">Freelance</span>
-				<p id="text" class="text-red-500 font-bold"></p>
-			</div>
-			<!-- texts -->
-			<div
-				class="hidden lg:flex flex-col gap-5 shadow-lg absolute top-0 bottom-0 right-10 m-auto p-5 rounded-md bg-white font-bold h-fit w-1/3"
-			>
-				<h1 class="text-2xl text-blue-900">Hi, I'm Mohamed Ali</h1>
-				<p class="text-gray-500">
-					I'm Front End Developer working as a Freelancer, I make websites for
-					clients ( E-commerce, Dashboard, ... ) also I enjoy making montage
-					videos and editing picture with PhotoShop...
-				</p>
-				<a
-					class="bg-blue-500 w-fit px-5 py-2 rounded-md text-white font-semibold"
-					href="#contact"
-				>
-					Hire me</a
-				>
-			</div>
-		</div>
-		<!-- about section -->
-		<div class="px-10 md:px-20">
-			<div
-				class="container flex flex-col-reverse md:flex-row items-center gap-20 py-40 mx-auto"
-			>
-				<!-- left -->
-				<div
-					class="w-3/4 md:w-3/4 lg:w-1/4 bg-black rounded-3xl md:rounded-full overflow-hidden"
-				>
-					<img src="./img/med2.jpg" alt="" />
-				</div>
-				<!-- right -->
+          <ul
+            id="menu"
+            class="hidden bg-white absolute left-0 top-12 w-full p-10 space-y-3 rounded-b-3xl text-black font-bold text-center"
+          >
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href="">About me</a>
+            </li>
+            <li>
+              <a href="">Services</a>
+            </li>
+            <li>
+              <a href="">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- intro content -->
+      <!-- image -->
 
-				<div class="flex flex-col gap-3">
-					<h1 class="text-4xl text-blue-600 font-bold">About Me</h1>
-					<h1 class="text-5xl font-medium">Better Design</h1>
-					<h1 class="text-5xl font-medium">Better Experience</h1>
-					<p class="text-gray-400 font-semibold">
-						I'm always working on learning skills, and this some of my current
-						skills that help me for creating perfect applications
-					</p>
-					<h2>HTML</h2>
-					<div class="w-full h-1.5 bg-gray-200 rounded-md">
-						<div class="w-11/12 h-1.5 bg-blue-600 rounded-md"></div>
-					</div>
-					<h2>CSS</h2>
-					<div class="w-full h-1.5 bg-gray-200 rounded-md">
-						<div class="w-5/6 h-1.5 bg-blue-600 rounded-md"></div>
-					</div>
-					<h2>JAVASCRIPT</h2>
-					<div class="w-full h-1.5 bg-gray-200 rounded-md">
-						<div class="w-7/12 h-1.5 bg-blue-600 rounded-md"></div>
-					</div>
-					<h2>REACT</h2>
-					<div class="w-full h-1.5 bg-gray-200 rounded-md">
-						<div class="w-8/12 h-1.5 bg-blue-600 rounded-md"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Services -->
-		<div>
-			<div class="container mx-auto">
-				<!-- top -->
-				<div class="flex flex-col gap-3 items-center">
-					<h1 class="text-4xl text-blue-600 font-bold">SERVICES</h1>
-					<h1 class="text-5xl font-medium">What Do I Offer ?</h1>
-					<p class="text-gray-400 w-9/12 md:w-1/2 text-center font-semibold">
-						I'm working on a lot of types of projects and as you can see there
-						are some of the services that I can offer in my freelance projects
-						if you want to ask about any other service just contact me
-					</p>
-				</div>
-				<!-- bottom -->
-				<div class="flex flex-wrap justify-between p-5 md:p-10">
-					<!-- card -->
-					<div
-						class="w-full md:w-5/12 rounded-md overflow-hidden flex flex-col gap-2 shadow-2xl my-3 md:my-10"
-					>
-						<img class="" src="./img/card1.jpg" alt="" />
-						<h2 class="font-bold text-xl px-3">Project 1</h2>
-						<p class="text-gray-500 font-semibold px-3">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
-							ullam, suscipit nulla quo neque rem animi iusto quae alias
-							explicabo reprehenderit non! Alias laboriosam ab voluptates
-							numquam possimus praesentium optio.
-						</p>
-						<a class="font-bold text-indigo-600 text-md p-3" href="">
-							Read more</a
-						>
-					</div>
-					<!-- card -->
-					<div
-						class="w-full md:w-5/12 rounded-md overflow-hidden flex flex-col gap-2 shadow-2xl my-3 md:my-10"
-					>
-						<img class="" src="./img/card2.jpg" alt="" />
-						<h2 class="font-bold text-xl px-3">Project 2</h2>
-						<p class="text-gray-500 font-semibold px-3">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-							rem provident reprehenderit debitis quasi iusto. Sequi omnis
-							possimus odit totam? Ducimus, sunt ut ratione fuga doloribus vel
-							perferendis quidem repudiandae!
-						</p>
-						<a class="font-bold text-indigo-600 text-md p-3" href="">
-							Read more</a
-						>
-					</div>
-					<!-- card -->
-					<div
-						class="w-full md:w-5/12 rounded-md overflow-hidden flex flex-col gap-2 shadow-2xl my-3 md:my-10"
-					>
-						<img class="" src="./img/card3.jpg" alt="" />
-						<h2 class="font-bold text-xl px-3">Project 3</h2>
-						<p class="text-gray-500 font-semibold px-3">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-							facilis eaque error, aliquid dignissimos accusamus qui, quia sequi
-							magnam voluptates, cum debitis illo veniam. Vel a deserunt nemo
-							odit tempore.
-						</p>
-						<a class="font-bold text-indigo-600 text-md p-3" href="">
-							Read more</a
-						>
-					</div>
-					<!-- card -->
-					<div
-						class="w-full md:w-5/12 rounded-md overflow-hidden flex flex-col gap-2 shadow-2xl my-3 md:my-10"
-					>
-						<img class="" src="./img/card4.jpg" alt="" />
-						<h2 class="font-bold text-xl px-3">Project 4</h2>
-						<p class="text-gray-500 font-semibold px-3">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-							mollitia ipsa incidunt optio, laborum molestiae quod facilis
-							aspernatur quidem totam fugit voluptatum repellendus itaque ad
-							nihil necessitatibus sint eum maxime?
-						</p>
-						<a class="font-bold text-indigo-600 text-md p-3" href="">
-							Read more</a
-						>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Works -->
-		<div class="py-20">
-			<div class="container mx-auto">
-				<!-- top -->
-				<div class="flex flex-col gap-3 items-center">
-					<h1 class="text-4xl text-blue-600 font-bold">PORTFOLIO</h1>
-					<h1 class="text-5xl font-medium">Works & Projects</h1>
-					<p class="text-gray-400 w-9/12 md:w-1/2 text-center font-semibold">
-						I'm a freelancer and I'm working with a lot of clients for a lot of
-						projects this is the list of projects that i have done :
-					</p>
-				</div>
-				<!-- bottom -->
-				<div class="flex flex-wrap justify-between p-5 md:p-10">
-					<!-- card -->
-					<div
-						class="w-full md:w-5/12 lg:w-1/4 m-1 rounded-md overflow-hidden shadow-2xl my-3 md:my-10"
-					>
-						<img class="" src="./img/card5.jpg" alt="" />
-					</div>
-					<!-- card -->
-					<div
-						class="w-full md:w-5/12 lg:w-1/4 m-1 rounded-md overflow-hidden shadow-2xl my-3 md:my-10"
-					>
-						<img class="" src="./img/card5.jpg" alt="" />
-					</div>
-					<!-- card -->
-					<div
-						class="w-full md:w-5/12 lg:w-1/4 m-1 rounded-md overflow-hidden shadow-2xl my-3 md:my-10"
-					>
-						<img class="" src="./img/card5.jpg" alt="" />
-					</div>
-					<!-- card -->
-					<div
-						class="w-full md:w-5/12 lg:w-1/4 m-1 rounded-md overflow-hidden shadow-2xl my-3 md:my-10"
-					>
-						<img class="" src="./img/card5.jpg" alt="" />
-					</div>
-					<!-- card -->
-					<div
-						class="w-full md:w-5/12 lg:w-1/4 m-1 rounded-md overflow-hidden shadow-2xl my-3 md:my-10"
-					>
-						<img class="" src="./img/card5.jpg" alt="" />
-					</div>
-					<!-- card -->
-					<div
-						class="w-full md:w-5/12 lg:w-1/4 m-1 rounded-md overflow-hidden shadow-2xl my-3 md:my-10"
-					>
-						<img class="" src="./img/card5.jpg" alt="" />
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- contact -->
-		<div>
-			<div class="container mx-auto">
-				<!-- top -->
-				<div class="flex flex-col gap-3 items-center">
-					<h1 class="text-4xl text-blue-600 font-bold">CONTACT</h1>
-					<h1 class="text-5xl font-medium">Have a Questions?</h1>
-					<p class="text-gray-400 w-9/12 md:w-1/2 text-center font-semibold">
-						Do you have an idea? Let's discuss it and see what we can do
-						together.
-					</p>
-				</div>
-				<!-- bottom -->
+		<img
+        src="img//my-pic-removebg-preview.png"
+        class="absolute right-0 lg:left-0 mx-auto mt-5"
+        alt=""
+      />
+	  
+      
+      <!-- circle -->
+      <div
+        class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-big h-big bg-blue-600 rounded-full -z-10"
+      ></div>
+      <!-- animated text -->
+      <div
+        class="absolute top-1/3 left-5 text-2xl sm:text-4xl sm:left-10 md:text-6xl md:left-1/5 lg:left-5 xl:left-40 xl:text-7xl"
+      >
+        <span class="text-gray-600 font-bold">Freelance</span>
+        <p id="text" class="text-red-500 font-bold"></p>
+      </div>
+      <!-- texts -->
+      <div
+        class="hidden lg:flex flex-col gap-5 shadow-lg absolute top-0 bottom-0 right-10 m-auto p-5 rounded-md bg-white font-bold h-fit w-1/3"
+      >
+        <h1 class="text-2xl text-blue-900">Hi, I'm Mohamed Ali</h1>
+        <p class="text-gray-500">
+          I'm Front End Developer working as a Freelancer, I make websites for
+          clients ( E-commerce, Dashboard, ... ) also I enjoy making montage
+          videos and editing picture with PhotoShop...
+        </p>
+        <a
+          class="bg-blue-500 w-fit px-5 py-2 rounded-md text-white font-semibold"
+          href="#contact"
+        >
+          Hire me</a
+        >
+      </div>
+    </div>
+    <!-- about section -->
+    <div class="px-10 md:px-20">
+      <div
+        class="container flex flex-col-reverse md:flex-row items-center gap-20 py-40 mx-auto"
+      >
+        <!-- left -->
+        <div
+          class="w-3/4 md:w-3/4 lg:w-1/4 bg-black rounded-3xl md:rounded-full overflow-hidden"
+        >
+          <img src="./img/med2.jpg" alt="" />
+        </div>
+        <!-- right -->
 
-				<form class="p-8 mt-5 flex flex-col gap-3 items-center" action="">
-					<input
-						class="ring-1 rounded-md p-2 w-full md:w-1/2"
-						type="text"
-						placeholder="UserName"
-					/>
-					<input
-						class="ring-1 rounded-md p-2 w-full md:w-1/2"
-						type="email"
-						placeholder="Your Email"
-					/>
-					<textarea
-						class="ring-1 rounded-md p-2 w-full md:w-1/2"
-						cols="30"
-						rows="10"
-						placeholder="Message..."
-					></textarea>
-					<button
-						class="w-1/2 bg-blue-500 px-3 py-2 text-white font-semibold rounded-md cursor-pointer shadow-xl"
-					>
-						Submit
-					</button>
-				</form>
-			</div>
-		</div>
-		<!-- footer -->
-		<div class="w-full px-5 bg-gray-500">
-			<div class="container mx-auto py-5 flex justify-between items-center">
-				<div class="items-center z-20">
-					<span class="text-xl font-bold text-white">MY Portfolio.</span>
-				</div>
+        <div class="flex flex-col gap-3">
+          <h1 class="text-4xl text-blue-600 font-bold">About Me</h1>
+          <h1 class="text-5xl font-medium">Better Design</h1>
+          <h1 class="text-5xl font-medium">Better Experience</h1>
+          <p class="text-gray-400 font-semibold">
+            I'm always working on learning skills, and this some of my current
+            skills that help me for creating perfect applications
+          </p>
+          <h2>HTML</h2>
+          <div class="w-full h-1.5 bg-gray-200 rounded-md">
+            <div class="w-11/12 h-1.5 bg-blue-600 rounded-md"></div>
+          </div>
+          <h2>CSS</h2>
+          <div class="w-full h-1.5 bg-gray-200 rounded-md">
+            <div class="w-5/6 h-1.5 bg-blue-600 rounded-md"></div>
+          </div>
+          <h2>JAVASCRIPT</h2>
+          <div class="w-full h-1.5 bg-gray-200 rounded-md">
+            <div class="w-7/12 h-1.5 bg-blue-600 rounded-md"></div>
+          </div>
+          <h2>REACT</h2>
+          <div class="w-full h-1.5 bg-gray-200 rounded-md">
+            <div class="w-8/12 h-1.5 bg-blue-600 rounded-md"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services -->
+    <div>
+      <div class="container mx-auto">
+        <!-- top -->
+        <div class="flex flex-col gap-3 items-center">
+          <h1 class="text-4xl text-blue-600 font-bold">SERVICES</h1>
+          <h1 class="text-5xl font-medium">What Do I Offer ?</h1>
+          <p class="text-gray-400 w-9/12 md:w-1/2 text-center font-semibold">
+            I'm working on a lot of types of projects and as you can see there
+            are some of the services that I can offer in my freelance projects
+            if you want to ask about any other service just contact me
+          </p>
+        </div>
+        <!-- bottom -->
+        <div class="flex flex-wrap gap-20 p-5 md:p-10">
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 rounded-md overflow-hidden flex flex-col gap-2 shadow-2xl my-3 md:my-10"
+          >
+            <img class="" src="./img/card1.jpg" alt="" />
+            <h2 class="font-bold text-xl px-3">Project 1</h2>
+            <p class="text-gray-500 font-semibold px-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+              ullam, suscipit nulla quo neque rem animi iusto quae alias
+              explicabo reprehenderit non! Alias laboriosam ab voluptates
+              numquam possimus praesentium optio.
+            </p>
+            <a class="font-bold text-indigo-600 text-md p-3" href="">
+              Read more</a
+            >
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 rounded-md overflow-hidden flex flex-col gap-2 shadow-2xl my-3 md:my-10"
+          >
+            <img class="" src="./img/card2.jpg" alt="" />
+            <h2 class="font-bold text-xl px-3">Project 2</h2>
+            <p class="text-gray-500 font-semibold px-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+              rem provident reprehenderit debitis quasi iusto. Sequi omnis
+              possimus odit totam? Ducimus, sunt ut ratione fuga doloribus vel
+              perferendis quidem repudiandae!
+            </p>
+            <a class="font-bold text-indigo-600 text-md p-3" href="">
+              Read more</a
+            >
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 rounded-md overflow-hidden flex flex-col gap-2 shadow-2xl my-3 md:my-10"
+          >
+            <img class="" src="./img/card3.jpg" alt="" />
+            <h2 class="font-bold text-xl px-3">Project 3</h2>
+            <p class="text-gray-500 font-semibold px-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              facilis eaque error, aliquid dignissimos accusamus qui, quia sequi
+              magnam voluptates, cum debitis illo veniam. Vel a deserunt nemo
+              odit tempore.
+            </p>
+            <a class="font-bold text-indigo-600 text-md p-3" href="">
+              Read more</a
+            >
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 rounded-md overflow-hidden flex flex-col gap-2 shadow-2xl my-3 md:my-10"
+          >
+            <img class="" src="./img/card4.jpg" alt="" />
+            <h2 class="font-bold text-xl px-3">Project 4</h2>
+            <p class="text-gray-500 font-semibold px-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              mollitia ipsa incidunt optio, laborum molestiae quod facilis
+              aspernatur quidem totam fugit voluptatum repellendus itaque ad
+              nihil necessitatibus sint eum maxime?
+            </p>
+            <a class="font-bold text-indigo-600 text-md p-3" href="">
+              Read more</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Works -->
+    <div class="py-20">
+      <div class="container mx-auto">
+        <!-- top -->
+        <div class="flex flex-col gap-3 items-center">
+          <h1 class="text-4xl text-blue-600 font-bold">PORTFOLIO</h1>
+          <h1 class="text-5xl font-medium">Works & Projects</h1>
+          <p class="text-gray-400 w-9/12 md:w-1/2 text-center font-semibold">
+            I'm a freelancer and I'm working with a lot of clients for a lot of
+            projects this is the list of projects that i have done :
+          </p>
+        </div>
+        <!-- bottom -->
+        <div class="flex flex-wrap justify-between p-5 md:p-10">
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 lg:w-1/4 m-1 rounded-md overflow-hidden shadow-2xl my-3 md:my-10"
+          >
+            <img class="" src="./img/card5.jpg" alt="" />
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 lg:w-1/4 m-1 rounded-md overflow-hidden shadow-2xl my-3 md:my-10"
+          >
+            <img class="" src="./img/card5.jpg" alt="" />
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 lg:w-1/4 m-1 rounded-md overflow-hidden shadow-2xl my-3 md:my-10"
+          >
+            <img class="" src="./img/card5.jpg" alt="" />
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 lg:w-1/4 m-1 rounded-md overflow-hidden shadow-2xl my-3 md:my-10"
+          >
+            <img class="" src="./img/card5.jpg" alt="" />
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 lg:w-1/4 m-1 rounded-md overflow-hidden shadow-2xl my-3 md:my-10"
+          >
+            <img class="" src="./img/card5.jpg" alt="" />
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 lg:w-1/4 m-1 rounded-md overflow-hidden shadow-2xl my-3 md:my-10"
+          >
+            <img class="" src="./img/card5.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contact -->
+    <div>
+      <div class="container mx-auto">
+        <!-- top -->
+        <div class="flex flex-col gap-3 items-center">
+          <h1 class="text-4xl text-blue-600 font-bold">CONTACT</h1>
+          <h1 class="text-5xl font-medium">Have a Questions?</h1>
+          <p class="text-gray-400 w-9/12 md:w-1/2 text-center font-semibold">
+            Do you have an idea? Let's discuss it and see what we can do
+            together.
+          </p>
+        </div>
+        <!-- bottom -->
 
-				<span class="hidden md:block text-2xl font-medium text-white"
-					>THANKS FOR YOUR VISIT ♥️</span
-				>
-				<div>
-					<ul class="flex flex-row gap-3">
-						<li>
-							<a href="">
-								<img
-									src="./img/facebook-logo-png_4116.png"
-									class="w-7 cursor-pointer"
-									alt=""
-								/>
-							</a>
-						</li>
-						<li>
-							<a href="">
-								<img
-									src="./img/instagram-circle-png_4486508.png"
-									class="w-7 cursor-pointer"
-									alt=""
-								/>
-							</a>
-						</li>
-						<li>
-							<a href="">
-								<img
-									src="./img/linkedin-white-png_3347140.png"
-									class="w-7 cursor-pointer"
-									alt=""
-								/>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<script src="app.js"></script>
-		<script src="autotyping.js"></script>
-	</body>
+        <form class="p-8 mt-5 flex flex-col gap-3 items-center" action="">
+          <input
+            class="ring-1 rounded-md p-2 w-full md:w-1/2"
+            type="text"
+            placeholder="UserName"
+          />
+          <input
+            class="ring-1 rounded-md p-2 w-full md:w-1/2"
+            type="email"
+            placeholder="Your Email"
+          />
+          <textarea
+            class="ring-1 rounded-md p-2 w-full md:w-1/2"
+            cols="30"
+            rows="10"
+            placeholder="Message..."
+          ></textarea>
+          <button
+            class="w-1/2 bg-blue-500 px-3 py-2 text-white font-semibold rounded-md cursor-pointer shadow-xl"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="w-full px-5 bg-gray-500">
+      <div class="container mx-auto py-5 flex justify-between items-center">
+        <div class="items-center z-20">
+          <span class="text-xl font-bold text-white">MY Portfolio.</span>
+        </div>
+
+        <span class="hidden md:block text-2xl font-medium text-white"
+          >THANKS FOR YOUR VISIT ♥️</span
+        >
+        <div>
+          <ul class="flex flex-row gap-3">
+            <li>
+              <a href="">
+                <img
+                  src="./img/facebook-logo-png_4116.png"
+                  class="w-7 cursor-pointer"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./img/instagram-circle-png_4486508.png"
+                  class="w-7 cursor-pointer"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./img/linkedin-white-png_3347140.png"
+                  class="w-7 cursor-pointer"
+                  alt=""
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="autotyping.js"></script>
+  </body>
 </html>
